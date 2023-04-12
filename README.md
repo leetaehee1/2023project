@@ -36,3 +36,8 @@ MobileBert를 활용한 게임리뷰 분석
   Feedback - Positive(긍정), Negative(부정)으로 나눔
   Review - 리뷰
  - 가공
+
+
+
+https://www.itlab.co.kr/v7/?m=rssM&bid=column&cat=LG+CNS&sort=d_regis&orderby=desc&uid=27004
+https://s-space.snu.ac.kr/handle/10371/166332
