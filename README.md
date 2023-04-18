@@ -23,12 +23,12 @@
  ### - 2.2 입력-모델-출력
  
  ### - 2.3 데이터 구성
-   #### Index - 번호
-   #### Playtime - 리뷰 기준 플레이 시간, 1시간 미만은 0으로 표시
-   #### Feedback - Positive(긍정), Negative(부정)으로 나눔
-   #### Review - 리뷰
+   - Index - 번호<br/>
+   - Playtime - 리뷰 기준 플레이 시간, 1시간 미만은 0으로 표시<br/>
+   - Feedback - Positive(긍정), Negative(부정)으로 나눔<br/>
+   - Review - 리뷰
   
- ### - 2.5 라벨, 분포, 부가정보
+ ### - 2.4 라벨, 분포, 부가정보
   - 총 46404개의 리뷰<br/>
   - 0~125시간 플레이시간<br/> ![hlplaytime](https://user-images.githubusercontent.com/79897716/231339975-de24721a-d26d-4bed-848d-761f1abf02c8.png)
 <br/><br/>
@@ -36,7 +36,7 @@
 <br/><br/>
   - 41433개의 고유의 값<br/>
   
- ### - 2.6 가공
+ ### - 2.5 가공
 
 
 ------ 출처 -------
