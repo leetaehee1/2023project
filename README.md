@@ -32,7 +32,8 @@
   - Index : 총 46404개의 리뷰<br/>
   - Playtime : 0~125시간 플레이시간<br/> ![hlplaytime](https://user-images.githubusercontent.com/79897716/231339975-de24721a-d26d-4bed-848d-761f1abf02c8.png)
 <br/><br/>
-  - Feedback : 92% 긍정(Positive) 8% 부정(Negative) <br/>![0412](https://user-images.githubusercontent.com/79897716/231343783-23bdc89d-f9f7-4aa2-9566-d004c62a2a9e.png)
+  - Feedback : 92% 긍정(Positive) 8% 부정(Negative) <br/>
+![hlpychart](https://user-images.githubusercontent.com/79897716/232953272-a5538f34-0fcd-4e57-91ce-def8cbeb5546.png)
 <br/><br/>
   - Review : 41433개의 고유의 값<br/>
   
