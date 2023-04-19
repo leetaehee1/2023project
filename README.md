@@ -29,12 +29,12 @@
    - Review - 리뷰
   
  ### - 2.4 라벨, 분포, 부가정보
-  - 총 46404개의 리뷰<br/>
-  - 0~125시간 플레이시간<br/> ![hlplaytime](https://user-images.githubusercontent.com/79897716/231339975-de24721a-d26d-4bed-848d-761f1abf02c8.png)
+  - Index : 총 46404개의 리뷰<br/>
+  - Playtime : 0~125시간 플레이시간<br/> ![hlplaytime](https://user-images.githubusercontent.com/79897716/231339975-de24721a-d26d-4bed-848d-761f1abf02c8.png)
 <br/><br/>
-  - 92% 긍정(Positive) 8% 부정(Negative) <br/>![0412](https://user-images.githubusercontent.com/79897716/231343783-23bdc89d-f9f7-4aa2-9566-d004c62a2a9e.png)
+  - Feedback : 92% 긍정(Positive) 8% 부정(Negative) <br/>![0412](https://user-images.githubusercontent.com/79897716/231343783-23bdc89d-f9f7-4aa2-9566-d004c62a2a9e.png)
 <br/><br/>
-  - 41433개의 고유의 값<br/>
+  - Review : 41433개의 고유의 값<br/>
   
  ### - 2.5 가공
 
