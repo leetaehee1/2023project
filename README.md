@@ -30,10 +30,10 @@
   
  ### - 2.4 라벨, 분포, 부가정보
   - Index : 총 46404개의 리뷰<br/>
-  - Playtime : 0~125시간 플레이시간<br/> ![hlplaytime](https://user-images.githubusercontent.com/79897716/231339975-de24721a-d26d-4bed-848d-761f1abf02c8.png)
+  - Playtime : 0~125시간 플레이시간<br/> <img src = "https://user-images.githubusercontent.com/79897716/231339975-de24721a-d26d-4bed-848d-761f1abf02c8.png" width="300" height="270">
 <br/><br/>
   - Feedback : 92% 긍정(Positive) 8% 부정(Negative) <br/>
-![hlpychart](https://user-images.githubusercontent.com/79897716/232953272-a5538f34-0fcd-4e57-91ce-def8cbeb5546.png)
+<img src = "https://user-images.githubusercontent.com/79897716/232953272-a5538f34-0fcd-4e57-91ce-def8cbeb5546.png" width="450" height="450">
 <br/><br/>
   - Review : 41433개의 고유의 값<br/>
   
