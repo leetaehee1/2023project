@@ -4,14 +4,14 @@
 ## 1. 개요
  
   #### - 스팀
- <img src = "https://user-images.githubusercontent.com/79897716/234445318-cec73f4a-e3ca-4426-b738-9ff31227f6b1.png" width="400" height="170">
+ <img src = "https://user-images.githubusercontent.com/79897716/234445318-cec73f4a-e3ca-4426-b738-9ff31227f6b1.png" width="350" height="150">
 
-스팀(Steam)은 밸브 코퍼레이션에서 개발하고 운영 중인 세계 최대 규모의 전자 소프트웨어 유통망이다.<br/>
+**스팀(Steam)**은 밸브 코퍼레이션에서 개발하고 운영 중인 세계 최대 규모의 전자 소프트웨어 유통망이다.<br/>
 스팀 클라이언트를 통해 게임을 구입, 관리할 수 있으며, 채팅, 방송 및 다양한 커뮤니티 기능을 통해 다른 유저들과 소통할 수 있으며 약 5만 개가 넘는 게임들이 있으며, 2019년 발표된 자료에 의하면 가입 계정이 10억 개를 돌파했고, 2021년에는 월 평균 사용자 1억 3,200만 명을 기록하며 엄청난 인기를 끌고 있다 [1]. <br/>
 이 스팀게임 중에서 호그와트 레거시라는 해리포터의 호그와트를 배경으로한 게임의 리뷰에 대해 분석하고자 이 게임을 선택하였다.<br/>
- <img src = "https://user-images.githubusercontent.com/79897716/234443638-811bd143-3d53-46b3-9516-65be5d95b620.jpg" width="700" height="450"><br>
+ <img src = "https://user-images.githubusercontent.com/79897716/234443638-811bd143-3d53-46b3-9516-65be5d95b620.jpg" width="550" height="330"><br>
 
-호그와트 레거시는 한국 시간으로 2023년 2월 6일 출시하였고, 원작자 관련 논란에도 불구하고 2월 7일에는 이러한 논란이 무색하게 트위치 트래커에 따르면 트위치에서 호그와트 레거시의 순간 시청자수가 130만명을 돌파했다.<br/>
+**호그와트 레거시**는 한국 시간으로 2023년 2월 6일 출시하였고, 원작자 관련 논란에도 불구하고 2월 7일에는 이러한 논란이 무색하게 트위치 트래커에 따르면 트위치에서 호그와트 레거시의 순간 시청자수가 130만명을 돌파했다.<br/>
 또한 정식 출시가 아닌 디럭스 에디션 구매자 한정 사전 접속만으로 스팀 동시 접속자 수 49만명을 기록했으며, 2월 12일 기준 호그와트 레거시의 스팀 최다 동시 접속자 수는 80만명으로, 주간 2위이자 역대 스팀 최대 동시 접속자 수 8위(RPG 장르 3위)에 올랐다. 싱글 플레이 게임으로는 지난해 엘든링에 이어 최고 흥행 기록이다. 전문가들은 호그와트 레거시가 출시 첫주에 1,000만장 이상 판매될 것이라 예측했고 발매 2주만에 1200만 장을 판매하고 8억 5천만 달러의 수익을 올렸을 정도로 흥행한 게임이다.
  
  
@@ -38,17 +38,18 @@
  ### - 2.2 입력-모델-출력
  
  ### - 2.3 데이터 구성
-   - Index - 번호<br/>
-   - Playtime - 리뷰 기준 플레이 시간, 1시간 미만은 0으로 표시<br/>
-   - Feedback - Positive(긍정), Negative(부정)으로 나눔<br/>
-   - Review - 리뷰
-  
+ |데이터|구분|
+ |---|---|
+ |Index|번호|
+ |Playtime|리뷰 기준 플레이 시간, 1시간 미만은 0으로 표시|
+ |Feedback|Positive(긍정), Negative(부정)으로 나눔|
+ |Review|리뷰|
+ 
  ### - 2.4 라벨, 분포, 부가정보
   - Index : 총 46404개의 리뷰<br/>
-  - Playtime : 0~125시간 플레이시간<br/> <img src = "https://user-images.githubusercontent.com/79897716/231339975-de24721a-d26d-4bed-848d-761f1abf02c8.png" width="300" height="270">
+  - Playtime : 0~125시간 플레이시간<br/> <img src = "https://user-images.githubusercontent.com/79897716/231339975-de24721a-d26d-4bed-848d-761f1abf02c8.png" width="270" height="240">
 <br/><br/>
-  - Feedback : 92% 긍정(Positive) 8% 부정(Negative) <br/>
-<img src = "https://user-images.githubusercontent.com/79897716/232953272-a5538f34-0fcd-4e57-91ce-def8cbeb5546.png" width="400" height="400">
+  - Feedback : 92% 긍정(Positive) 8% 부정(Negative) <br/> <img src = "https://user-images.githubusercontent.com/79897716/232953272-a5538f34-0fcd-4e57-91ce-def8cbeb5546.png" width="370" height="370">
 <br/><br/>
   - Review : 41433개의 고유의 값<br/>
   
