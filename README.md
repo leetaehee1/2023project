@@ -49,7 +49,8 @@
 <br/><br/>
   - Feedback : 92% 긍정(Positive) 8% 부정(Negative) <br/> <img src = "https://user-images.githubusercontent.com/79897716/232953272-a5538f34-0fcd-4e57-91ce-def8cbeb5546.png" width="370" height="370">
 <br/><br/>
-  - Review : 41433개의 고유의 값<br/>
+  - Review : 41433개의 고유의 값 <br/>![chart (1)](https://user-images.githubusercontent.com/79897716/235825321-c1bf5900-e574-42b5-bf20-b0cb5f28c451.png)
+
   
  ### - 가공
  - 가장 긴 리뷰의 플레이타임과 긍부정 찾기  <br/>
