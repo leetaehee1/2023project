@@ -33,8 +33,23 @@
   Kaggle : https://www.kaggle.com/datasets/georgescutelnicu/hogwarts-legacy-reviews
   
  ### - 입력-모델-출력
-<img src = "https://user-images.githubusercontent.com/79897716/235343316-62b9daf3-cbdc-484c-bd41-73c4ae658c89.png" width="580" height="430">  
-
+ ```python
+ import pandas as pd
+ df = pd.read_csv('/content/hogwarts_legacy_reviews.csv')
+ df
+ ```
+ 
+ |Index|Playtime|Feedback|Review|
+ |---|---|---|---|
+ |0|16|Positive|Greattt Game!|
+ |1|26|Positive|9/10Fantastic experience. A true Wizarding World experience. ...|
+ |2|29|Positive|worth it|
+ |3|24|Positive|I've been waiting 84 YEARSSSSSSSS.The game is everything I could have hoped for and more.|
+ |...|...|...|...|
+ |46401|11|Positive|WORTH EVERY PENNY! LOTS TO DO ...|
+ |46402|8|Positive|Awesome game! Awesome graphics, story line, and even combat. ...|
+ |46403|1|Positive|Well yes, I'm transphobic how did you know?|
+ |46404|6|Positive|I would take a Avada Kedavra and endure a Crucio for Professor ...|
  ### - 데이터 구성
  |데이터|구분|
  |---|---|
