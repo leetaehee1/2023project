@@ -1,7 +1,7 @@
-
+# <div align="center"> MobileBERT를 활용한 호그와트 레거시 게임리뷰 긍부정 예측 프로젝트 </div>
 <img src = "https://user-images.githubusercontent.com/79897716/234443638-811bd143-3d53-46b3-9516-65be5d95b620.jpg" ><br/>
 
-# MobileBERT를 활용한 호그와트 레거시 게임리뷰 긍부정 예측 프로젝트
+
 
 # 1. 개요
 
@@ -11,7 +11,7 @@
  
 이 스팀게임 중에서 호그와트 레거시라는 해리포터의 호그와트를 배경으로한 게임의 리뷰에 대해 분석하고자 이 게임을 선택하였다.<br/><br/>
 
-**호그와트 레거시**는 해리포터 세계관에서 진행되는 몰입형 오픈월드 액션 RPG 게임이다.  
+**호그와트 레거시**는 해리포터 세계관에서 진행되는 몰입형 오픈월드 액션 RPG 게임이다. [2]
   한국 시간으로 2023년 2월 6일 출시하였고, 원작자 관련 논란에도 불구하고 2월 7일에는 이러한 논란이 무색하게 트위치 트래커에 따르면 트위치에서 호그와트 레거시의 순간 시청자수가 130만명을 돌파했다.<br/>
   또한 정식 출시가 아닌 디럭스 에디션 구매자 한정 사전 접속만으로 스팀 동시 접속자 수 49만명을 기록했으며, 2월 12일 기준 호그와트 레거시의 스팀 최다 동시 접속자 수는 80만명으로, 주간 2위이자 역대 스팀 최대 동시 접속자 수 8위(RPG 장르 3위)에 올랐다. 전문가들은 호그와트 레거시가 출시 첫주에 1,000만장 이상 판매될 것이라 예측했고 발매 2주만에 1200만 장을 판매하고 8억 5천만 달러의 수익을 올렸을 정도로 흥행한 게임이다.
 
@@ -65,16 +65,21 @@
 <br/><br/>
   - Feedback : 92% 긍정(Positive) 8% 부정(Negative) <br/> ![image](https://github.com/leetaehee1/2023project/assets/79897716/baf30606-39eb-41d5-bc71-f6d15e03cf74)
 <br/><br/>
-  - Review : 중복되지않는 41433개의 리뷰의 수 <br/>![chart (1)](https://user-images.githubusercontent.com/79897716/235825321-c1bf5900-e574-42b5-bf20-b0cb5f28c451.png)<br/>
+  - Review : 중복되지않는 41433개의 리뷰의 수 <br/>
+ 
+  - 리뷰 문장의 길이 개수  ![chart](https://github.com/leetaehee1/2023project/assets/79897716/a70bf596-8426-4b4a-9a38-3d63961640bf) <br/>
+  - Positive Negative 분류한 리뷰 문장의 길이 개수 ![chart (2)](https://github.com/leetaehee1/2023project/assets/79897716/1ff7f31f-9d78-4ccb-94e4-e542af0379e2)
+
 
 + 학습데이터 쓴거
 + 임의로 자른
-+ 줄은거에서 그래
++ 줄은거에서 그래프
  ## 결론  
   플레이타임이 길어질수록 긍정적인 평가가 많아지기 때문에 플레이타임과 긍정 혹은 부정적인 리뷰의 관계는 큰 편이고 단순히 리뷰의 문장의 길이로만 보기에는 어떤 내용인지 봐야 하므로 리뷰의 길이와 긍정 혹은 부정적인 리뷰의 관계는 약한 편이다.  
   호그와트 레거시 게임의 긍정적인 리뷰가 92%가 된다는 것과 플레이타임이 긴 사람들의 리뷰가 긍정적이라는 것은 리뷰에 대해 신뢰감을 높이고 이를 유용하다고 판단해 후기에 영향을 받은 새롭게 게임을 구매할 구매자들이 늘어날 것이라고 본다.
   
  ## 출처
 [1] https://namu.wiki/w/Steam <br/>
-[2] https://www.itlab.co.kr/v7/?m=rssM&bid=column&cat=LG+CNS&sort=d_regis&orderby=desc&uid=27004 <br/>
-[3] https://s-space.snu.ac.kr/handle/10371/166332
+[2] https://namu.wiki/w/%ED%98%B8%EA%B7%B8%EC%99%80%ED%8A%B8%20%EB%A0%88%EA%B1%B0%EC%8B%9C
+[3] https://www.itlab.co.kr/v7/?m=rssM&bid=column&cat=LG+CNS&sort=d_regis&orderby=desc&uid=27004 <br/>
+[4] https://s-space.snu.ac.kr/handle/10371/166332
