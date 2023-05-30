@@ -63,9 +63,9 @@
   - Index : 총 46404개의 리뷰<br/>
   - Playtime : 0~125시간 플레이시간<br/> ![스크린샷 2023-05-24 105738](https://github.com/leetaehee1/2023project/assets/79897716/a1ee0dee-c641-485b-a1f3-52f904b32896)
 <br/><br/>
-  - Feedback : 92% 긍정(Positive) 8% 부정(Negative) <br/> <img src = "https://user-images.githubusercontent.com/79897716/232953272-a5538f34-0fcd-4e57-91ce-def8cbeb5546.png" width="370" height="370">
+  - Feedback : 92% 긍정(Positive) 8% 부정(Negative) <br/> ![image](https://github.com/leetaehee1/2023project/assets/79897716/baf30606-39eb-41d5-bc71-f6d15e03cf74)
 <br/><br/>
-  - Review : 41433개의 고유의 값 <br/>![chart (1)](https://user-images.githubusercontent.com/79897716/235825321-c1bf5900-e574-42b5-bf20-b0cb5f28c451.png)<br/>
+  - Review : 중복되지않는 41433개의 리뷰의 수 <br/>![chart (1)](https://user-images.githubusercontent.com/79897716/235825321-c1bf5900-e574-42b5-bf20-b0cb5f28c451.png)<br/>
 
 + 학습데이터 쓴거
 + 임의로 자른
