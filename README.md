@@ -1,8 +1,6 @@
 # <div align="center"> MobileBERT를 활용한 호그와트 레거시 게임리뷰 긍부정 예측 프로젝트 </div>
 <img src = "https://user-images.githubusercontent.com/79897716/234443638-811bd143-3d53-46b3-9516-65be5d95b620.jpg" ><br/>
 
-
-
 # 1. 개요
 
  <img src = "https://user-images.githubusercontent.com/79897716/234445318-cec73f4a-e3ca-4426-b738-9ff31227f6b1.png" width="300" height="100">
@@ -67,13 +65,52 @@
 <br/><br/>
   - Review : 중복되지않는 41433개의 리뷰의 수 <br/>
  
-  - 리뷰 문장의 길이 개수  ![chart](https://github.com/leetaehee1/2023project/assets/79897716/a70bf596-8426-4b4a-9a38-3d63961640bf) <br/>
-  - Positive Negative 분류한 리뷰 문장의 길이 개수 ![chart (2)](https://github.com/leetaehee1/2023project/assets/79897716/1ff7f31f-9d78-4ccb-94e4-e542af0379e2)
+  - 전체 데이터의 리뷰 문장의 길이 개수  ![chart](https://github.com/leetaehee1/2023project/assets/79897716/a70bf596-8426-4b4a-9a38-3d63961640bf) <br/>
+  - 전체 데이터의 Positive Negative 분류한 리뷰 문장의 길이 개수 ![chart (2)](https://github.com/leetaehee1/2023project/assets/79897716/1ff7f31f-9d78-4ccb-94e4-e542af0379e2)
 
+ - 임의로 2000개 정한뒤 텐서보드 작성 (문장의 최대길이 128)
+ - train  
+![2000](https://github.com/leetaehee1/2023project/assets/79897716/33f23042-6197-43cf-8c34-5c7774924c5a)  
 
-+ 학습데이터 쓴거
-+ 임의로 자른
-+ 줄은거에서 그래프
+|step|loss|
+|---|---|
+|0|1.07e+5|
+|1|5.744|
+|2|3.82|
+|3|45.2|
+ - valid  
+![2000-1](https://github.com/leetaehee1/2023project/assets/79897716/d34a5d0b-e8f3-4965-b761-47ae21957e78)  
+
+|step|accuracy|
+|---|---|
+|0|0.78|
+|1|0.855|
+|2|0.85|
+|3|0.725|
+
+ - 임의로 2000개 정한뒤 텐서보드 작성 (문장의 최대길이 256)
+ - train  
+ ![554](https://github.com/leetaehee1/2023project/assets/79897716/d75d5aaf-565d-4e27-b200-4a1f9dfa1003)  
+ 
+ |step|loss|
+ |---|---|
+ |0|6.41e+4|
+ |1|2.44e+4|
+ |2|4.306|
+ |3|0.7236|
+ - valid  
+![555](https://github.com/leetaehee1/2023project/assets/79897716/37c4e54b-7b77-4176-ba08-cf36c52d289d)  
+
+ |step|accuracy|
+ |---|---|
+ |0|0.845|
+ |1|0.56|
+ |2|0.845|
+ |3|0.93|
+
+ - 임의의 1000개의 데이터를 배치사이즈 8로 설정한뒤 모델을 테스트한 결과의 정확도  
+ ![acc](https://github.com/leetaehee1/2023project/assets/79897716/22bbefd9-f91a-49a7-b68f-6d78774e2a03)
+
  ## 결론  
   플레이타임이 길어질수록 긍정적인 평가가 많아지기 때문에 플레이타임과 긍정 혹은 부정적인 리뷰의 관계는 큰 편이고 단순히 리뷰의 문장의 길이로만 보기에는 어떤 내용인지 봐야 하므로 리뷰의 길이와 긍정 혹은 부정적인 리뷰의 관계는 약한 편이다.  
   호그와트 레거시 게임의 긍정적인 리뷰가 92%가 된다는 것과 플레이타임이 긴 사람들의 리뷰가 긍정적이라는 것은 리뷰에 대해 신뢰감을 높이고 이를 유용하다고 판단해 후기에 영향을 받은 새롭게 게임을 구매할 구매자들이 늘어날 것이라고 본다.
