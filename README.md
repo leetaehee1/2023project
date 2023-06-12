@@ -68,7 +68,7 @@
   - 전체 데이터의 리뷰 문장의 길이 개수  ![chart](https://github.com/leetaehee1/2023project/assets/79897716/a70bf596-8426-4b4a-9a38-3d63961640bf) <br/>
   - 전체 데이터의 Positive Negative 분류한 리뷰 문장의 길이 개수 ![chart (2)](https://github.com/leetaehee1/2023project/assets/79897716/1ff7f31f-9d78-4ccb-94e4-e542af0379e2)
 
- - 임의로 2000개 정한뒤 텐서보드 작성 (문장의 최대길이 128)
+ ### 임의로 2000개 정한뒤 텐서보드 작성 (문장의 최대길이 128)
  - train  
 ![2000](https://github.com/leetaehee1/2023project/assets/79897716/33f23042-6197-43cf-8c34-5c7774924c5a)  
 
@@ -88,7 +88,7 @@
 |2|0.85|
 |3|0.725|
 
- - 임의로 2000개 정한뒤 텐서보드 작성 (문장의 최대길이 256)
+ ### 임의로 2000개 정한뒤 텐서보드 작성 (문장의 최대길이 256)
  - train  
  ![554](https://github.com/leetaehee1/2023project/assets/79897716/d75d5aaf-565d-4e27-b200-4a1f9dfa1003)  
  
@@ -108,7 +108,7 @@
  |2|0.845|
  |3|0.93|
 
- - 임의의 1000개의 데이터를 배치사이즈 8로 설정한뒤 모델을 테스트한 결과의 정확도  
+ ### 임의의 1000개의 데이터를 배치사이즈 8로 설정한뒤 모델을 테스트한 결과의 정확도  
  ![acc](https://github.com/leetaehee1/2023project/assets/79897716/22bbefd9-f91a-49a7-b68f-6d78774e2a03)
 
  ## 결론  
