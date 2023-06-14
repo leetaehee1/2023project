@@ -59,18 +59,29 @@
  
  ### - 라벨, 분포, 부가정보
   - Index : 총 46404개의 리뷰<br/>
-  - Playtime : 0~125시간 플레이시간<br/> ![스크린샷 2023-05-24 105738](https://github.com/leetaehee1/2023project/assets/79897716/a1ee0dee-c641-485b-a1f3-52f904b32896)
-<br/><br/>
-  - Feedback : 92% 긍정(Positive) 8% 부정(Negative) <br/> ![image](https://github.com/leetaehee1/2023project/assets/79897716/baf30606-39eb-41d5-bc71-f6d15e03cf74)
+ <p align="center">
+  <p>Playtime : 0~125시간 플레이시간</p>
+  <p>Feedback : 92% 긍정(Positive) 8% 부정(Negative)</p>
+ </p>
+
+
+
+
+ <p align="center">
+   <img src = "https://github.com/leetaehee1/2023project/assets/79897716/4e0fc64a-57d5-46a5-b618-8c09c43a652d" width="600" height="400" >
+   <img src = "https://github.com/leetaehee1/2023project/assets/79897716/baf30606-39eb-41d5-bc71-f6d15e03cf74" width="400" height="400" >
+ </p>
+   
 <br/><br/>
   - Review : 중복되지않는 41433개의 리뷰의 수 <br/>
  
   - 전체 데이터의 리뷰 문장의 길이 개수  ![chart](https://github.com/leetaehee1/2023project/assets/79897716/a70bf596-8426-4b4a-9a38-3d63961640bf) <br/>
-  - 전체 데이터의 Positive Negative 분류한 리뷰 문장의 길이 개수 ![chart (2)](https://github.com/leetaehee1/2023project/assets/79897716/1ff7f31f-9d78-4ccb-94e4-e542af0379e2)
+
+## MobileBERT를 사용한 결과 (training, validation 그래프)  
 
  ### 임의로 2000개 정한뒤 텐서보드 작성 (문장의 최대길이 128)
- - train  
-![2000](https://github.com/leetaehee1/2023project/assets/79897716/33f23042-6197-43cf-8c34-5c7774924c5a)  
+ - train   
+<img src = "https://github.com/leetaehee1/2023project/assets/79897716/33f23042-6197-43cf-8c34-5c7774924c5a" width="400" height="400">  
 
 |step|loss|
 |---|---|
@@ -79,7 +90,7 @@
 |2|3.82|
 |3|45.2|
  - valid  
-![2000-1](https://github.com/leetaehee1/2023project/assets/79897716/d34a5d0b-e8f3-4965-b761-47ae21957e78)  
+<img src = "https://github.com/leetaehee1/2023project/assets/79897716/d34a5d0b-e8f3-4965-b761-47ae21957e78" width="400" height="400">   
 
 |step|accuracy|
 |---|---|
@@ -90,7 +101,7 @@
 
  ### 임의로 2000개 정한뒤 텐서보드 작성 (문장의 최대길이 256)
  - train  
- ![554](https://github.com/leetaehee1/2023project/assets/79897716/d75d5aaf-565d-4e27-b200-4a1f9dfa1003)  
+<img src = "https://github.com/leetaehee1/2023project/assets/79897716/d75d5aaf-565d-4e27-b200-4a1f9dfa1003" width="400" height="400">  
  
  |step|loss|
  |---|---|
@@ -99,7 +110,7 @@
  |2|4.306|
  |3|0.7236|
  - valid  
-![555](https://github.com/leetaehee1/2023project/assets/79897716/37c4e54b-7b77-4176-ba08-cf36c52d289d)  
+<img src = "https://github.com/leetaehee1/2023project/assets/79897716/37c4e54b-7b77-4176-ba08-cf36c52d289d" width="400" height="400">  
 
  |step|accuracy|
  |---|---|
@@ -108,8 +119,9 @@
  |2|0.845|
  |3|0.93|
 
- ### 임의의 1000개의 데이터를 배치사이즈 8로 설정한뒤 모델을 테스트한 결과의 정확도  
- ![acc](https://github.com/leetaehee1/2023project/assets/79897716/22bbefd9-f91a-49a7-b68f-6d78774e2a03)
+ ### 분석 데이터 전체에 적용한 결과값 (accuracy)
+ 
+![accu](https://github.com/leetaehee1/2023project/assets/79897716/32c3aa24-ee33-4159-a5d3-4fec8141f29c)
 
  ## 결론  
   플레이타임이 길어질수록 긍정적인 평가가 많아지기 때문에 플레이타임과 긍정 혹은 부정적인 리뷰의 관계는 큰 편이고 단순히 리뷰의 문장의 길이로만 보기에는 어떤 내용인지 봐야 하므로 리뷰의 길이와 긍정 혹은 부정적인 리뷰의 관계는 약한 편이다.  
