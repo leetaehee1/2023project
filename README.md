@@ -159,3 +159,8 @@
 [2] https://namu.wiki/w/%ED%98%B8%EA%B7%B8%EC%99%80%ED%8A%B8%20%EB%A0%88%EA%B1%B0%EC%8B%9C<br/>
 [3] https://www.itlab.co.kr/v7/?m=rssM&bid=column&cat=LG+CNS&sort=d_regis&orderby=desc&uid=27004 <br/>
 [4] https://s-space.snu.ac.kr/handle/10371/166332
+
+
+
+# 이번 프로젝트 수행과 관련된 파일들
+https://github.com/leetaehee1/2023project_datafile
