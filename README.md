@@ -142,17 +142,15 @@
 <hr>   
 
 ### 개발환경 : pycharm version, python version, 패키지는 requirement.txt 참고
-|개발환경|
-|---|
-|Pychram 2022.3.3|
-|Python 3.9.0|
-|tensorflow==2.11.0|
-|matplotlib==3.7.1|
-|pandas==1.4.4|
-|numpy==1.24.2|
-|torch==1.12.1|
-|transformers==4.21.2|
-|scikit-learn==1.2.2|
+|개발환경|패키지|
+|---|---|
+|Pychram 2022.3.3|tensorflow==2.11.0|
+|Python 3.9.0|matplotlib==3.7.1|
+||pandas==1.4.4|
+||numpy==1.24.2|
+||torch==1.12.1|
+||transformers==4.21.2|
+||scikit-learn==1.2.2|
 
  ### 출처
 [1] https://namu.wiki/w/Steam <br/>
